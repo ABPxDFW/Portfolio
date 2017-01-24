@@ -10,11 +10,10 @@ html{
 }
 
 body {
-    background:none;
+    background: none;
     line-height: 1.5;
     color: #f5f5f5;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,6 +114,8 @@ p {
 
 .portfolio-item {
     margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .portfolio-item img {
@@ -131,4 +132,8 @@ p {
 
 .filterable-portfolio {
     margin-bottom: 3rem;
+}
+
+figure {
+    margin: 0px;
 }
